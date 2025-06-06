@@ -15,8 +15,9 @@ import styles from './styles.module.css';
   //   </span>
   // );
 
+  const teste = {name: 'teste', description: 'teste', price: 'R$ 0,00', image: 'https://via.placeholder.com/150'};
   return (
-    <div onClick={() => onClick(product)} style={{ cursor: 'pointer' }}>
+    <div onClick={() => onClick(teste)} style={{ cursor: 'pointer' }}>
       <Card title={product.name} subTitle={product.description.slice(0, 100) + '...'} header={header} className={styles.card} />
     </div>
   );

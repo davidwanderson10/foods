@@ -51,7 +51,7 @@ export default function ProductGrid() {
             <img
               src={selectedProduct.image}
               alt={selectedProduct.name}
-              style={{ width: '100%', marginBottom: '1rem' }}
+              style={{ width: '90%', marginBottom: '1rem', marginLeft: '5%', borderRadius: '8px' }}
             />
             <p><strong>Descrição:</strong> {selectedProduct.description}</p>
             <p><strong>Preço:</strong> {selectedProduct.price}</p>
